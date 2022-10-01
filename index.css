@@ -553,7 +553,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media (min-width: 901px) {
   .about__text {
-    flex: 0 0 35%;
+    flex: 0 0 45%;
   }
 
   .about__photo-container {
@@ -584,6 +584,7 @@ body:not(.user-is-tabbing) a:focus {
   justify-content: center;
   padding: var(--gutter-normal) 0;
   list-style: none;
+  align-items: center;
 }
 
 .footer__social-link-item:not(:last-of-type) {
@@ -591,7 +592,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .footer__social-image {
-  height: 4rem;
+  height: 6rem;
 }
 
 .footer__github-buttons {
@@ -607,6 +608,6 @@ body:not(.user-is-tabbing) a:focus {
 
 @media (max-width: 500px) {
   .footer {
-    padding: var(--gutter-medium) 0;
+    padding: var(--gutter-small) 0;
   }
 }
