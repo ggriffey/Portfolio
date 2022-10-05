@@ -34,7 +34,7 @@
   --line-height-normal: 1.7;
   --line-height-small: 1.2;
 
-  --black: #000;
+  --black: rgb(23, 23, 23);
   --pink: #ff3258;
   --white: #f0e9f2;
   --white-1: #e5e5e6da;
@@ -452,7 +452,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__box:not(:last-child) {
-  margin-bottom: 25rem;
+  margin-bottom: 20rem;
 }
 
 @media (max-width: 500px) {
@@ -467,7 +467,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-  flex: 0 0 30%;
+  flex: 0 0 34%;
 }
 
 .work__list {
@@ -534,6 +534,10 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- About ----- */
 /* --------------------------------------- */
 
+.about {
+  padding-top: 50px;
+}
+
 .about__content {
   display: flex;
   flex-direction: row-reverse;
@@ -553,7 +557,8 @@ body:not(.user-is-tabbing) a:focus {
 
 @media (min-width: 901px) {
   .about__text {
-    flex: 0 0 45%;
+    flex: 0 0 48%;
+    font-size: 24px;
   }
 
   .about__photo-container {

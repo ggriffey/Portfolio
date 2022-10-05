@@ -34,17 +34,17 @@
         <nav class="nav" role="navigation">
           <ul class="nav__items">
             <li class="nav__item">
-              <a href="#work" class="nav__link">Projects</a>
-            </li>
-            <!-- <li class="nav__item">
-              <a href="#clients" class="nav__link">Clients</a>
-            </li> -->
-            <li class="nav__item">
               <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Projects</a>
             </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link">Contact</a>
             </li>
+            <!-- <li class="nav__item">
+              <a href="#clients" class="nav__link">Clients</a>
+            </li> -->
           </ul>
         </nav>
       </div>
@@ -57,7 +57,7 @@
           <!-- Put a small paragraph about yourself -->
           <p>
             Web Developer based in Boston, Massachusetts. <br />
-            Life-long musician and dog lover.
+            Life-long musician and dog-lover.
           </p>
           <a href="#contact" class="btn btn--pink">Contact me!</a>
         </div>
@@ -65,6 +65,39 @@
     </header>
 
     <main role="main">
+      <!-- ***** About ***** -->
+
+      <section class="about" id="about">
+        <div class="row">
+          <h2>About Me</h2>
+          <div class="about__content">
+            <div class="about__text">
+              <!-- Replace the below paragraph with info about yourself -->
+              <p>
+                After discovering freecodecamp.org in the summer of 2020, I
+                became completely engrossed in learning to code. In the years
+                that followed, I not only completed several online programs
+                (freecodecamp, theodinproject) but also developed through
+                various university classes, Udemy courses, and project-based
+                coding challenges. I hope to continually develope my skills in
+                order to be able to build any project that I can imagine.
+              </p>
+              <!-- Provide a link to your resume -->
+              <!-- <a href="#" class="btn">My Resume</a> -->
+            </div>
+
+            <div class="about__photo-container">
+              <!-- Add a nice photo of yourself -->
+              <img
+                class="about__photo"
+                src="./images/Greyson cropped.jpeg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- ***** Work ***** -->
 
       <section class="work" id="work">
@@ -76,10 +109,14 @@
             <div class="work__box">
               <div class="work__text">
                 <h3>Virtual Sketch</h3>
-                <p>A fresh take on the classic "Etch-A-Sketch" drawing toy.</p>
+                <p>
+                  A fresh take on the classic "Etch-A-Sketch" drawing toy that
+                  runs based on a grid of paint "cells" each listening for a
+                  number of mouse click events.
+                </p>
                 <ul class="work__list">
                   <li>HTML</li>
-                  <li>CSS</li>
+                  <li>CSS (+ Grid)</li>
                   <li>JavaScript</li>
                 </ul>
 
@@ -115,23 +152,30 @@
 
             <div class="work__box">
               <div class="work__text">
-                <h3>Calculator</h3>
+                <h3>Color Identifier</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                  eius.
+                  Centered around interfaing with a color API, this is
+                  minimalistic web app that allows users to submit a hex code to
+                  the remote API. The user submitted information is checked for
+                  any potential errors (ie. the user enters an invalid hex
+                  code), then the app will use that data to dynamically change
+                  the information displayed on-screen, including the name and
+                  visual representation of that color.
                 </p>
                 <ul class="work__list">
-                  <li>React</li>
-                  <li>Next.js</li>
-                  <li>Node</li>
-                  <li>MongoDB</li>
+                  <li>API implementation</li>
+                  <li>Javascript</li>
+                  <li>Git/GitHub</li>
                 </ul>
 
                 <div class="work__links">
-                  <a href="#" class="link__text">
+                  <a
+                    href="https://ggriffey.github.io/Color-Identifier/"
+                    class="link__text"
+                  >
                     Visit Site <span>&rarr;</span>
                   </a>
-                  <a href="#">
+                  <a href="https://github.com/ggriffey/Color-Identifier">
                     <img
                       src="./images/github.svg"
                       class="work__code"
@@ -143,7 +187,7 @@
               </div>
               <div class="work__image-box">
                 <img
-                  src="./images/project-2.png"
+                  src="./images/projects/Color Identifier Screenshot.png"
                   class="work__image"
                   alt="Project 1"
                 />
@@ -152,23 +196,26 @@
 
             <div class="work__box">
               <div class="work__text">
-                <h3>Notificator</h3>
+                <h3>Site Replica from Scratch</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                  eius.
+                  Using a mockup to create a perfect replica of the intended
+                  design. This was a fantastic project for honing my approach to
+                  CSS positioning, as well as working on efficiently generating
+                  site layouts.
                 </p>
                 <ul class="work__list">
-                  <li>React</li>
-                  <li>Next.js</li>
-                  <li>Node</li>
-                  <li>MongoDB</li>
+                  <li>HTML</li>
+                  <li>CSS (Flexbox)</li>
                 </ul>
 
                 <div class="work__links">
-                  <a href="#" class="link__text">
+                  <a
+                    href="https://ggriffey.github.io/Replicated-Site/"
+                    class="link__text"
+                  >
                     Visit Site <span>&rarr;</span>
                   </a>
-                  <a href="#">
+                  <a href="https://github.com/ggriffey/Replicated-Site">
                     <img
                       src="./images/github.svg"
                       class="work__code"
@@ -180,7 +227,7 @@
               </div>
               <div class="work__image-box">
                 <img
-                  src="./images/project-3.png"
+                  src="./images/projects/mockup copy.png"
                   class="work__image"
                   alt="Project 3"
                 />
@@ -188,39 +235,6 @@
             </div>
           </div>
         </div>
-
-        <!-- ***** About ***** -->
-
-        <section class="about" id="about">
-          <div class="row">
-            <h2>About Me</h2>
-            <div class="about__content">
-              <div class="about__text">
-                <!-- Replace the below paragraph with info about yourself -->
-                <p>
-                  After discovering freecodecamp.org in the summer of 2020, I
-                  became completely engrossed in learning to code. In the years
-                  that followed, I not only completed several online curricula
-                  (freecodecamp, theodinproject) but also developed through
-                  several university classes, Udemy courses, and project-based
-                  coding challenges. I hope to continue developing my skills in
-                  order to be able to build any project that I can imagine.
-                </p>
-                <!-- Provide a link to your resume -->
-                <a href="#" class="btn">My Resume</a>
-              </div>
-
-              <div class="about__photo-container">
-                <!-- Add a nice photo of yourself -->
-                <img
-                  class="about__photo"
-                  src="./images/syed-ali-hussnain.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </section>
 
         <!-- ***** Contact ***** -->
 
