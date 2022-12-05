@@ -568,6 +568,22 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* --------------------------------------- */
+/* ----- Resume ----- */
+/* --------------------------------------- */
+
+/* .resume__content {
+  width: 1275px;
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+} */
+
+.resume__downloads {
+  margin: 25px;
+}
+
+/* --------------------------------------- */
 /* ----- Contact ----- */
 /* --------------------------------------- */
 
