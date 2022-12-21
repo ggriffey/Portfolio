@@ -478,9 +478,9 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__code {
   display: block;
-  height: 3rem;
-  margin-left: var(--gutter-normal);
-  transition: all 0.3s;
+  height: 4rem;
+  margin-right: var(--gutter-small);
+  transition: all 0.2s;
 }
 
 .work__code:hover {
@@ -580,7 +580,7 @@ body:not(.user-is-tabbing) a:focus {
 } */
 
 .resume__downloads {
-  margin: 25px;
+  margin: 10px;
 }
 
 /* --------------------------------------- */
