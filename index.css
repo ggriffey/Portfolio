@@ -471,7 +471,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__list {
-  /* list-style-type: square; */
+  list-style-type: square;
   list-style-position: inside;
   margin-bottom: var(--gutter-normal);
 }
@@ -489,6 +489,10 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__image-box {
   margin-bottom: var(--gutter-normal);
+}
+
+video {
+  width: 100%;
 }
 
 @media (min-width: 901px) {
